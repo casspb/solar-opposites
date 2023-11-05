@@ -30,7 +30,6 @@ header {
   background-size: cover;
   background-blend-mode: multiply;
   height: 700px;
-
 }
 
 .characters {
@@ -116,7 +115,7 @@ article p,
 }
 
 footer {
-  color: white;
+  color: black;
   padding: 20px 0;
   text-align: center;
 }
