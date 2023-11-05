@@ -1,0 +1,196 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+header {
+  background-color: white;
+  text-align: center;
+}
+
+#main-logo {
+  width: 500px;
+  display: block;
+  margin: 0px auto;
+}
+
+#character_nav {
+  background-image: url("../img/solaropposites-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+.characters {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.characters li {
+  height: 220px;
+  margin: 10px 8px;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease;
+  box-shadow: 0 139px 0 0 rgb(74, 194, 142) inset;
+}
+
+.characters li:hover {
+  box-shadow: 0 220px 0 0 rgb(74, 194, 142) inset;
+}
+
+.characters li h5 {
+  color: black;
+  padding: 12px 8px;
+}
+
+.characters li a {
+  text-decoration: none;
+}
+
+article,
+#instructions {
+  padding: 60px;
+}
+
+article h3,
+#instructions h3 {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+article p,
+#instructions p {
+  width: 80%;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  margin: 0px auto;
+}
+
+.sprite {
+  width: 139px;
+  height: 139px;
+  background-image: url("../img/solaropposites-sheet.jpg");
+}
+
+#terry {
+  background-position: -139px 0;
+}
+
+#korvo {
+  background-position: -278px 0px;
+}
+
+#jesse {
+  background-position: -417px 0px;
+}
+
+#pupa {
+  background-position: -556px 0px;
+}
+
+#yum:hover,
+#terry:hover,
+#korvo:hover,
+#jesse:hover,
+#pupa:hover {
+  background-position-y: -139px;
+}
+
+footer {
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.stickyfooter {
+  position: sticky;
+  top: 100%;
+  height: 80px;
+  background-color: rgb(40, 37, 37);
+}
+
+.lightbox {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.85);
+  background-image: url(../img/Yumyulackstill.webp);
+  background-repeat: no-repeat;
+  background-size: 28vh;
+  background-position: 40px bottom;
+  z-index: 5000; /* ya this is crazy, better safe than sorry, word press sets at 9999 */
+  display: none;
+}
+
+#lightbox2 {
+  background-image: url("../img/Terrystill.webp");
+  background-size: 25vh;
+}
+
+#lightbox3 {
+  background-image: url("../img/korvo.webp");
+}
+
+#lightbox4 {
+  background-image: url("../img/Jessestill.webp");
+}
+
+#lightbox5 {
+  background-image: url("../img/Pupastill.webp");
+  background-size: 50vh;
+}
+
+.lightbox_close {
+  position: relative;
+  top: 20px;
+  left: 95%;
+  color: white;
+  font-size: 48px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.lightbox_close:hover {
+  opacity: 0.5;
+  color: white;
+}
+
+.lightbox article {
+  width: 55%;
+  margin-left: 40%;
+  padding-top: 50px;
+}
+
+.lb_text,
+.lb_heading {
+  text-align: left;
+}
+
+.lb_text {
+  margin-left: 0;
+  padding-top: 32px;
+  line-height: 1.6 !important;
+}
+
+.lightbox:target {
+  display: block;
+}
