@@ -5,7 +5,8 @@ Project title: Solar Opposites sprites sheet
 Project Description:
 This application lets you select a character from the Solar Opposites main characters, when hovering above the characters it will interact and show the different charactrers in invert. When selected the character will show up full size, and give you their personality descriptions, allowing you to exit out back to the main screen and choose another character to read about.
 
-table of content:
+## table of content:
+
 html
 
 1.  main logo
@@ -20,7 +21,10 @@ css
 2.  logo
     3 charactrer navigation - character background
 3.  character list style
-4.  hover interaction, color box shadow below highlighting characters
+4.  hover interaction, color box shadow below highlighting
+
+## characters
+
 5.  character info text style
 6.  character large photo size
 7.  character interaction to invert
@@ -29,6 +33,10 @@ css
 10. lightbox images
 11. lightbox text size and colour
 
-credit:
+##credit:
 images solar opposites
 text info- solar opposite wiki
+
+## licence
+
+MIT licence
